@@ -7,6 +7,11 @@ let formData=reactive({
     msg:"",
 })
 const submitfun=()=>{
+    formData.name="";
+    formData.phone="";
+    formData.email="";
+    formData.msg="";
+    
     console.log(formData)
 }
 </script>

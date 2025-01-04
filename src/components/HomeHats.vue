@@ -1,10 +1,10 @@
 <script setup>
-import icon1 from '../assets/svg/icon1.vue';
-import icon2 from '../assets/svg/icon2.vue';
-import icon3 from '../assets/svg/icon3.vue';
-import icon4 from '../assets/svg/icon4.vue';
-import icon5 from '../assets/svg/icon5.vue';
-import icon6 from '../assets/svg/icon6.vue';
+import Icon1 from '../assets/svg/Icon1.vue';
+import Icon2 from '../assets/svg/Icon2.vue';
+import Icon3 from '../assets/svg/Icon3.vue';
+import Icon4 from '../assets/svg/Icon4.vue';
+import Icon5 from '../assets/svg/Icon5.vue';
+import Icon6 from '../assets/svg/Icon6.vue';
 </script>
 <template>
     <div class="w-full font-custom bg-[#FFFFFF] py-20 px-5 md:px-8 lg:px-10 xl:px-20 2xl:px-40 3xl:px-80 flex flex-col lg:flex-row gap-10 lg:gap-5 2xl:gap-20">
@@ -15,37 +15,37 @@ import icon6 from '../assets/svg/icon6.vue';
 
             <div class="flex flex-col gap-5">
             <div class="flex gap-2 items-center"> 
-                <div class="w-[50px]"><icon1 /></div>
+                <div class="w-[50px]"><Icon1 /></div>
                 <p class="font-medium text-[#4A4A49]">Advisory Service</p>
             </div>
 
             <div class="flex gap-2 items-center">
-                <div class="w-[50px]"><icon2 /></div>
+                <div class="w-[50px]"><Icon2 /></div>
                
                 <p class="font-medium text-[#4A4A49]">Global Business 
                     Expansion</p>
             </div>
 
             <div class="flex gap-2 items-center">
-                <div class="w-[50px]"><icon3 /></div>
+                <div class="w-[50px]"><Icon3 /></div>
                 <p class="font-medium text-[#4A4A49]">Market Research</p>
             </div>
             </div>
 
             <div class="flex flex-col gap-5">
             <div class="flex gap-2 items-center">
-                <div class="w-[50px]"><icon4 /></div>
+                <div class="w-[50px]"><Icon4 /></div>
                 <p class="font-medium text-[#4A4A49]">VC Funding</p>
             </div>
 
             <div class="flex gap-2 items-center">
-                <div class="w-[50px]"><icon5 /></div>
+                <div class="w-[50px]"><Icon5 /></div>
                 <p class="font-medium text-[#4A4A49]">Marketing & Business <br>
                     Strategy Development</p>
             </div>
 
             <div class="flex gap-2 items-center">
-                <div class="w-[50px]"><icon6 /></div>
+                <div class="w-[50px]"><Icon6 /></div>
                 <p class="font-medium text-[#4A4A49]">Pitch Coach</p>
             </div>
             </div>
