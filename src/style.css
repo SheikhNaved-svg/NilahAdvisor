@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('@/assets/fonts/MyCustomFont.ttf') format('ttf');
+        
+    font-weight: 400; 
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'CustomFontsecond';
+    src: url('@/assets/fonts/Inter.ttc') format('ttc');
+    font-weight: 400; 
+    font-style: normal;
+  }
+
+  
+
+
+
+  
+
+  
