@@ -55,17 +55,17 @@ import Icon6 from '../assets/svg/Icon6.vue';
         <!--right-->
         <div class="relative bg-white w-full lg:w-[40%] rounded-lg lg:rounded-2xl p-5 2xl:px-10 flex flex-col justify-center gap-5 shadow-customshadow2 gradient-border">
   
-  <div class="bg-[#F1F5FB] px-5 rounded-lg flex gap-5 items-center 2xl:justify-center">
+  <div class="bg-[#F1F5FB] px-5 rounded-lg flex gap-5 items-center lg:justify-center">
     <span class="font-semibold text-[28px] lg:text-[40px] leading-[72.8px] tracking-[-3%] text-[#1A3261]">25+</span>
     <span class="font-medium text-[18px] lg:text-[24px] text-[#1A3261]">Startups Engaged</span>
   </div>
 
-  <div class="bg-[#F1F5FB] px-5 rounded-lg flex gap-5 items-center 2xl:justify-center">
+  <div class="bg-[#F1F5FB] px-5 rounded-lg flex gap-5 items-center lg:justify-center">
     <span class="font-semibold text-[28px] lg:text-[40px] leading-[72.8px] tracking-[-3%] text-[#1A3261]">30+</span>
     <span class="font-medium text-[18px] lg:text-[24px] text-[#1A3261]">Satisfied Clients</span>
   </div>
 
-  <div class="bg-[#F1F5FB] px-5 rounded-lg flex gap-10 items-center 2xl:justify-center">
+  <div class="bg-[#F1F5FB] px-5 rounded-lg flex gap-10 items-center lg:justify-center">
     <span class="font-semibold text-[28px] lg:text-[40px] leading-[72.8px] tracking-[-3%] text-[#1A3261]">5+</span>
     <span class="font-medium text-[18px] lg:text-[24px] text-[#1A3261]">Global Partners</span>
   </div>
