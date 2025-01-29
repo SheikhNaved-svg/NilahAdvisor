@@ -1,10 +1,10 @@
 <script setup>
 import con1 from '../assets/svg/con1.vue';
-import Icon2 from '../assets/svg/Icon2.vue';
-import Icon3 from '../assets/svg/Icon3.vue';
-import Icon4 from '../assets/svg/Icon4.vue';
-import Icon5 from '../assets/svg/Icon5.vue';
-import Icon6 from '../assets/svg/Icon6.vue';
+import con2 from '../assets/svg/con2.vue';
+import con3 from '../assets/svg/con3.vue';
+import con4 from '../assets/svg/con4.vue';
+import con5 from '../assets/svg/con5.vue';
+import con6 from '../assets/svg/con6.vue';
 </script>
 <template>
     <div class="w-full font-custom bg-[#FFFFFF] py-20 px-5 md:px-8 lg:px-10 xl:px-20 2xl:px-40 3xl:px-80 flex flex-col lg:flex-row gap-10 lg:gap-5 2xl:gap-20">
@@ -20,32 +20,32 @@ import Icon6 from '../assets/svg/Icon6.vue';
             </div>
 
             <div class="flex gap-2 items-center">
-                <div class="w-[50px]"><Icon2 /></div>
+                <div class="w-[50px]"><con2 /></div>
                
                 <p class="font-medium text-[#4A4A49]">Global Business 
                     Expansion</p>
             </div>
 
             <div class="flex gap-2 items-center">
-                <div class="w-[50px]"><Icon3 /></div>
+                <div class="w-[50px]"><con3 /></div>
                 <p class="font-medium text-[#4A4A49]">Market Research</p>
             </div>
             </div>
 
             <div class="flex flex-col gap-5">
             <div class="flex gap-2 items-center">
-                <div class="w-[50px]"><Icon4 /></div>
+                <div class="w-[50px]"><con4 /></div>
                 <p class="font-medium text-[#4A4A49]">VC Funding</p>
             </div>
 
             <div class="flex gap-2 items-center">
-                <div class="w-[50px]"><Icon5 /></div>
+                <div class="w-[50px]"><con5 /></div>
                 <p class="font-medium text-[#4A4A49]">Marketing & Business <br>
                     Strategy Development</p>
             </div>
 
             <div class="flex gap-2 items-center">
-                <div class="w-[50px]"><Icon6 /></div>
+                <div class="w-[50px]"><con6 /></div>
                 <p class="font-medium text-[#4A4A49]">Pitch Coach</p>
             </div>
             </div>
