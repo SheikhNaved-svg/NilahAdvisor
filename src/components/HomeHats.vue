@@ -1,5 +1,5 @@
 <script setup>
-import Icon1 from '../assets/svg/Icon1.vue';
+import con1 from '../assets/svg/con1.vue';
 import Icon2 from '../assets/svg/Icon2.vue';
 import Icon3 from '../assets/svg/Icon3.vue';
 import Icon4 from '../assets/svg/Icon4.vue';
@@ -15,7 +15,7 @@ import Icon6 from '../assets/svg/Icon6.vue';
 
             <div class="flex flex-col gap-5">
             <div class="flex gap-2 items-center"> 
-                <div class="w-[50px]"><Icon1 /></div>
+                <div class="w-[50px]"><con1 /></div>
                 <p class="font-medium text-[#4A4A49]">Advisory Service</p>
             </div>
 
