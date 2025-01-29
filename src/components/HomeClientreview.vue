@@ -34,7 +34,7 @@ const scrollRight = () => {
 </script>
 
 <template>
-    <div class="bg-[#FFFFFF] flex flex-col items-center w-full font-custom py-10 px-5 md:px-10 lg:pr-0 xl:pl-20 2xl:pl-40 ">
+    <div class="bg-[#FFFFFF] flex flex-col items-center w-full font-custom py-10 px-5 md:px-10 lg:px-20 xl:px-20 2xl:px-40 3xl:px-80 ">
         <div class="w-full  flex flex-col items-center gap-10 lg:gap-0 lg:flex-row lg:items-center">
             <h1 class="text-[40px] text-center w-full lg:w-[30%] font-semibold text-[#1A3261]">
                 What Our<br class='hidden lg:block 3xl:hidden'> Clients Say
@@ -46,7 +46,7 @@ const scrollRight = () => {
                         v-for="(card, index) in 5"
                         :key="index"
                         :class="index % 2 === 0 ? 'bg-[#FAE4F6]' : 'bg-[#E4EAFA]'"
-                        class="w-full lg:w-[600px] xl:w-[750px] rounded-lg lg:rounded-[16px] p-5 md:p-10  shrink-0">
+                        class="w-full lg:w-[600px] xl:w-[750px] 3xl:w-[850px] 4xl:w-[950px] rounded-lg lg:rounded-[16px] p-5 md:p-10  shrink-0">
                         <p :class="index % 2 ===0? 'text-[#551388]': 'text-[#151388]'" class="font-medium ">
                             “Nilah Advisors is indispensable for Startup Founders. Not only they guide you with a good
                             direction, but they also give you the courage to try to solve problems together and never

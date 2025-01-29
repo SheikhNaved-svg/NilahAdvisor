@@ -8,6 +8,7 @@ import HomeHats from '../components/HomeHats.vue';
 import HomeHero from '../components/HomeHero.vue';
 import Homepartner from '../components/Homepartner.vue';
 import Homecomp2 from '../components/Homecomp2.vue';
+
 onMounted(()=>{
     window.scrollTo(0,0);
 })
@@ -22,5 +23,6 @@ onMounted(()=>{
     <HomeClientreview />
     <Homepartner />
     <Homecomp2 />
+
     </div>
 </template>

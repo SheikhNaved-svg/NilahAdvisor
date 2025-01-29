@@ -1,12 +1,12 @@
 <script setup></script>
 <template>
-    <div class="w-full bg-[#FFFFFF] font-custom p-5 md:px-20 lg:px-10 xl:px-20 2xl:px-40 3xl:px-80 flex flex-col gap-5 lg:flex-row">
+    <div class="w-full bg-[#FFFFFF] font-custom p-5  md:px-20 lg:px-10 xl:px-20 2xl:px-40 3xl:px-80 flex flex-col gap-16 lg:gap-5 2xl:gap-7 3xl:gap-10 lg:flex-row">
         <!--left-->
         <div class="relative w-full lg:w-[70%] shadow-[-8px_8px_32px_0px_#2347c71a] rounded-xl p-5 bg-white gradient-border">
   
-         <div class="relative  flex flex-col gap-7 px-10">
-    <h1 class="text-[28px] lg:text-[48px] text-center lg:text-start font-semibold text-[#1A3261]">
-      Tortor Turpis Ante<br> Hendrerit Cras. Ipsum.
+         <div class="relative  flex flex-col gap-7 lg:px-5 xl:px-10">
+    <h1 class="text-[28px] lg:text-[48px] md:text-center  lg:text-start font-semibold text-[#1A3261]">
+      Tortor Turpis Ante<br class="hidden lg:block"> Hendrerit Cras. Ipsum.
     </h1>
     <div class="flex flex-wrap justify-center lg:justify-between gap-5">
       <img class="w-16" src="../assets/svg/icon.svg" alt="icon" loading="lazy" />

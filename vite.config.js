@@ -8,4 +8,8 @@ export default defineConfig({
     outDir: 'dist'
   },
   base: './', // Adjust the base path if needed
+  server: {
+    host: true, // Or '0.0.0.0'
+    port: 5173, // Optional, to specify a custom port
+  },
 })
