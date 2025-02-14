@@ -22,7 +22,7 @@ const scrollLeft = () => {
 
 const scrollRight = () => {
     if (carouselRef.value) {
-        const cardWidth = carouselRef.value.querySelector('.shrink-0').offsetWidth + 20; // Adjust for gap
+        const cardWidth = carouselRef.value.querySelector('.shrink-0').offsetWidth + 20;
         carouselRef.value.scrollBy({ left: cardWidth, behavior: 'smooth' });
 
         if (custom.value < 100) {
